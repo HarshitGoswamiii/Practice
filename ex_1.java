@@ -37,6 +37,6 @@ public class ex_1 {
         exer1 tag = new exer1();
         // TAG.cgpa(44, 45, 39);
         // TAG.divide(25, 4);
-        tag.swapping(2, 4);
+        tag.swapping(21, 43);
     }
 }
