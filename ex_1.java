@@ -152,13 +152,14 @@ class exer1 {
 
     // Question 16
     public void reverse_number(int number) {
+        System.out.println("Before : " + number);
         int reverse = 0;
         while (number != 0) {
             int digits = number % 10;
             reverse = reverse * 10 + digits;
-            num /= 10;
+            number /= 10;
         }
-        System.out.println();
+        System.out.println("After : " + reverse);
     }
 }
 
@@ -180,6 +181,6 @@ public class ex_1 {
         // tag.fibonacci(10);
         // tag.alphabet_display();
         // tag.count_of_digits(21332156);
-
+        tag.reverse_number(123639);
     }
 }
