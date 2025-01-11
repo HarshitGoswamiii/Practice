@@ -1,5 +1,3 @@
-import javax.lang.model.util.ElementScanner14;
-import javax.swing.text.html.HTML.Tag;
 
 class exer1 {
 
@@ -153,7 +151,9 @@ class exer1 {
     }
 
     // Question 16
-    
+    public void reverse_number(int reverse){
+        
+    }
 }
 
 public class ex_1 {
