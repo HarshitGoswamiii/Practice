@@ -77,7 +77,19 @@ class exer1 {
     }
 
     // Question 8
-    public void sign(int number){
+    public void sign(double number){
+        double numb = number;
+        if(numb<0.0){
+            System.out.println(numb+" is negative !");
+        }
+        else if(numb>0.0){
+            System.out.println(numb+" is positive !");
+        }
+        else{
+            System.out.println(numb+" is Zero or 0 !");
+        }
+    }
+    public void alphabet(char alpa){
         
     }
 }
@@ -92,5 +104,6 @@ public class ex_1 {
         // tag.vowel('i');
         // tag.largest(5, 7, 12);
         // tag.leapyear(2024);
+        // tag.sign(32.2);
     }
 }
