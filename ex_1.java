@@ -151,9 +151,14 @@ class exer1 {
     }
 
     // Question 16
-    public void reverse_number(int number){
-        int reverse=0;
-        
+    public void reverse_number(int number) {
+        int reverse = 0;
+        while (number != 0) {
+            int digits = number % 10;
+            reverse = reverse * 10 + digits;
+            num /= 10;
+        }
+        System.out.println();
     }
 }
 
