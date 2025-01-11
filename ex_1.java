@@ -123,8 +123,17 @@ class exer1 {
     }
 
     // Question 13
-    public void fibonacci(int number){
-        
+    public void fibonacci(int n) {
+        int firstTerm = 0;
+        int SecondTerm = 1;
+        System.out.println("Fibonacci Series Till " + n + " Terms !");
+
+        for (int i = 0; i < n; i++) {
+            System.out.println(firstTerm + ", ");
+            int NextTerm = firstTerm + SecondTerm;
+            firstTerm = SecondTerm;
+            SecondTerm = NextTerm;
+        }
     }
 }
 
@@ -143,5 +152,6 @@ public class ex_1 {
         // tag.sum_of_n(10);
         // tag.factorial(6);
         // tag.table(4);
+        tag.fibonacci(10);
     }
 }
