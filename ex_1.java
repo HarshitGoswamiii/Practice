@@ -77,20 +77,23 @@ class exer1 {
     }
 
     // Question 8
-    public void sign(double number){
+    public void sign(double number) {
         double numb = number;
-        if(numb<0.0){
-            System.out.println(numb+" is negative !");
-        }
-        else if(numb>0.0){
-            System.out.println(numb+" is positive !");
-        }
-        else{
-            System.out.println(numb+" is Zero or 0 !");
+        if (numb < 0.0) {
+            System.out.println(numb + " is negative !");
+        } else if (numb > 0.0) {
+            System.out.println(numb + " is positive !");
+        } else {
+            System.out.println(numb + " is Zero or 0 !");
         }
     }
-    public void alphabet(char alpa){
-        
+
+    public void alphabet(char alpa) {
+        if (alpa >= 'A' && alpa <= 'Z' || alpa >= 'a' && alpa <= 'z') {
+            System.out.println(alpa + " is alphabet. ");
+        } else {
+            System.out.println(alpa + " is not alphabet.");
+        }
     }
 }
 
@@ -105,5 +108,6 @@ public class ex_1 {
         // tag.largest(5, 7, 12);
         // tag.leapyear(2024);
         // tag.sign(32.2);
+        // tag.alphabet('j');
     }
 }
