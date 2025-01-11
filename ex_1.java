@@ -151,7 +151,8 @@ class exer1 {
     }
 
     // Question 16
-    public void reverse_number(int reverse){
+    public void reverse_number(int number){
+        int reverse=0;
         
     }
 }
