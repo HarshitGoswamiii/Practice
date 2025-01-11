@@ -121,6 +121,11 @@ class exer1 {
             System.out.println(number + " * " + i + " : " + (number * i));
         }
     }
+
+    // Question 13
+    public void fibonacci(int number){
+        
+    }
 }
 
 public class ex_1 {
@@ -137,5 +142,6 @@ public class ex_1 {
         // tag.alphabet('j');
         // tag.sum_of_n(10);
         // tag.factorial(6);
+        // tag.table(4);
     }
 }
