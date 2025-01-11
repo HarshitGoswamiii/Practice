@@ -98,12 +98,12 @@ class exer1 {
     }
 
     // Question 10
-    public void sum_of_n(int start, int stop) {
+    public void sum_of_n(int range) {
         int sum = 0;
-        for (int i = start; start <= stop; i++) {
-            sum = +i;
+        for (int i = 0; i <= range; ++i) {
+            sum += i;
         }
-        System.out.println(sum);
+        System.out.println("Sum : " + sum);
     }
 }
 
@@ -119,6 +119,6 @@ public class ex_1 {
         // tag.leapyear(2024);
         // tag.sign(32.2);
         // tag.alphabet('j');
-        tag.sum_of_n(0, 5);
+        tag.sum_of_n(5);
     }
 }
