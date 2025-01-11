@@ -88,12 +88,22 @@ class exer1 {
         }
     }
 
+    // Question 9
     public void alphabet(char alpa) {
         if (alpa >= 'A' && alpa <= 'Z' || alpa >= 'a' && alpa <= 'z') {
             System.out.println(alpa + " is alphabet. ");
         } else {
             System.out.println(alpa + " is not alphabet.");
         }
+    }
+
+    // Question 10
+    public void sum_of_n(int start, int stop) {
+        int sum = 0;
+        for (int i = start; start <= stop; i++) {
+            sum = +i;
+        }
+        System.out.println(sum);
     }
 }
 
@@ -109,5 +119,6 @@ public class ex_1 {
         // tag.leapyear(2024);
         // tag.sign(32.2);
         // tag.alphabet('j');
+        tag.sum_of_n(0, 5);
     }
 }
