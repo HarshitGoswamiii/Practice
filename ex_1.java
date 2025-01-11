@@ -30,6 +30,17 @@ class exer1 {
         f2 = temp;
         System.out.println("After Swapping :  " + f1 + " | " + f2);
     }
+
+    // Question 4 
+    public void odd_even(int digit){
+        int num = digit;
+        if(num%2==0){
+            System.out.println(num +" is an even number !");
+        }
+        else{
+            System.out.println(num +" is an odd number !");
+        }
+    }
 }
 
 public class ex_1 {
@@ -37,6 +48,7 @@ public class ex_1 {
         exer1 tag = new exer1();
         // TAG.cgpa(44, 45, 39);
         // TAG.divide(25, 4);
-        tag.swapping(21, 43);
+        // tag.swapping(21, 43);
+        tag.odd_even(7);
     }
 }
