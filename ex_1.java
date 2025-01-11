@@ -75,6 +75,11 @@ class exer1 {
             System.out.println(year + " is not leap year !");
         }
     }
+
+    // Question 8
+    public void sign(int number){
+        
+    }
 }
 
 public class ex_1 {
@@ -86,5 +91,6 @@ public class ex_1 {
         // tag.odd_even(7);
         // tag.vowel('i');
         // tag.largest(5, 7, 12);
+        // tag.leapyear(2024);
     }
 }
