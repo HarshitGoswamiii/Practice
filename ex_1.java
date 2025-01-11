@@ -1,3 +1,4 @@
+import javax.lang.model.util.ElementScanner14;
 import javax.swing.text.html.HTML.Tag;
 
 class exer1 {
@@ -31,14 +32,37 @@ class exer1 {
         System.out.println("After Swapping :  " + f1 + " | " + f2);
     }
 
-    // Question 4 
-    public void odd_even(int digit){
+    // Question 4
+    public void odd_even(int digit) {
         int num = digit;
-        if(num%2==0){
-            System.out.println(num +" is an even number !");
+        if (num % 2 == 0) {
+            System.out.println(num + " is an even number !");
+        } else {
+            System.out.println(num + " is an odd number !");
         }
-        else{
-            System.out.println(num +" is an odd number !");
+    }
+
+    // Question 5
+    public void vowel(char alphabet) {
+        char alpha = alphabet;
+        if (alpha == 'a' || alpha == 'e' || alpha == 'i' || alpha == 'o' || alpha == 'u') {
+            System.out.println(alpha + " is vowel");
+        } else {
+            System.out.println(alpha + " is consonant");
+        }
+    }
+
+    // Question 6
+    public void largest(int num1, int num2, int num3) {
+        int n1 = num1;
+        int n2 = num2;
+        int n3 = num3;
+        if (n1 > n2 && n1 > n3) {
+            System.out.println(n1 + " is largest !");
+        } else if (n2 > n1 && n2 > n3) {
+            System.out.println(n2 + " is largest !");
+        } else {
+            System.out.println(n3 + " is largest !");
         }
     }
 }
@@ -49,6 +73,8 @@ public class ex_1 {
         // TAG.cgpa(44, 45, 39);
         // TAG.divide(25, 4);
         // tag.swapping(21, 43);
-        tag.odd_even(7);
+        // tag.odd_even(7);
+        // tag.vowel('i');
+        tag.largest(5, 7, 12);
     }
 }
