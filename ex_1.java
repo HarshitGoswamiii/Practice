@@ -129,10 +129,17 @@ class exer1 {
         System.out.println("Fibonacci Series Till " + n + " Terms !");
 
         for (int i = 0; i < n; i++) {
-            System.out.println(firstTerm + ", ");
+            System.out.print(firstTerm + ", ");
             int NextTerm = firstTerm + SecondTerm;
             firstTerm = SecondTerm;
             SecondTerm = NextTerm;
+        }
+    }
+
+    // Question 14
+    public void alphabet_display() {
+        for (char i = 'A'; i <= 'Z'; i++) {
+            System.out.print(i + ", ");
         }
     }
 }
@@ -152,6 +159,6 @@ public class ex_1 {
         // tag.sum_of_n(10);
         // tag.factorial(6);
         // tag.table(4);
-        tag.fibonacci(10);
+        // tag.fibonacci(10);
     }
 }
