@@ -105,6 +105,22 @@ class exer1 {
         }
         System.out.println("Sum : " + sum);
     }
+
+    // Question 11
+    public void factorial(int fac) {
+        int fact = 1;
+        for (int i = fac; i > 0; i--) {
+            fact *= i;
+        }
+        System.out.println("Factorial of " + fac + " : " + fact);
+    }
+
+    // Question 12
+    public void table(int number) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(number + " * " + i + " : " + (number * i));
+        }
+    }
 }
 
 public class ex_1 {
@@ -119,6 +135,7 @@ public class ex_1 {
         // tag.leapyear(2024);
         // tag.sign(32.2);
         // tag.alphabet('j');
-        tag.sum_of_n(5);
+        // tag.sum_of_n(10);
+        // tag.factorial(6);
     }
 }
