@@ -142,6 +142,14 @@ class exer1 {
             System.out.print(i + ", ");
         }
     }
+
+    // Question 15
+    public void count_of_digits(int num) {
+        int count = 0;
+        for (; num != 0; num /= 10, ++count) {
+        }
+        System.out.println(num + " has " + count + " digits");
+    }
 }
 
 public class ex_1 {
@@ -160,5 +168,7 @@ public class ex_1 {
         // tag.factorial(6);
         // tag.table(4);
         // tag.fibonacci(10);
+        // tag.alphabet_display();
+        tag.count_of_digits(21332156);
     }
 }
