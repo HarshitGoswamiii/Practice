@@ -65,6 +65,16 @@ class exer1 {
             System.out.println(n3 + " is largest !");
         }
     }
+
+    // Question 7
+    public void leapyear(int y) {
+        int year = y;
+        if (year % 4 == 0) {
+            System.out.println(year + " is leap year !");
+        } else {
+            System.out.println(year + " is not leap year !");
+        }
+    }
 }
 
 public class ex_1 {
@@ -75,6 +85,6 @@ public class ex_1 {
         // tag.swapping(21, 43);
         // tag.odd_even(7);
         // tag.vowel('i');
-        tag.largest(5, 7, 12);
+        // tag.largest(5, 7, 12);
     }
 }
