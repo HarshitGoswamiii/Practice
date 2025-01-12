@@ -210,16 +210,18 @@ class exer1 {
 
     // Question 20
     public void prime_intervals(int low, int high) {
-        boolean flag = false;
-        for (int i = low; i <= high; i++) {
-            for (int j = 2; j < i / 2; j++) {
-                if (i % j != 0) {
+        while (low < high) {
+            boolean flag = false;
+            for (int i = 2; i < low / 2; i++) {
+                if (low % i == 0) {
                     flag = true;
                     break;
                 }
             }
-            if (!flag && low != 0 && low != 1)
-                System.out.print(low + " ");
+            if (!flag && low == 0 && low == 1) {
+                System.out.print(low + ", ");
+                ++low;
+            }
         }
     }
 }
