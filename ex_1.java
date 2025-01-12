@@ -181,7 +181,7 @@ class exer1 {
             number /= 10;
         }
         System.out.println("Reversed Number : " + reverse);
-        if (number != reverse) {
+        if (number == reverse) {
             System.out.println("It is A Palidrome Number !");
         } else {
             System.out.println("It is Not A Palidrome Number !");
@@ -209,6 +209,6 @@ public class ex_1 {
         // tag.count_of_digits(21332156);
         // tag.reverse_number(123639);
         // tag.power_of_number(2, 4);
-        tag.palindrome(121);
+        tag.palindrome(1221);
     }
 }
