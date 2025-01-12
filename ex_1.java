@@ -161,6 +161,13 @@ class exer1 {
         }
         System.out.println("After : " + reverse);
     }
+
+    // Question 17
+    public void power_of_number(int num, int power) {
+        for (int i = 0; i <= power; i++) {
+            
+        }
+    }
 }
 
 public class ex_1 {
