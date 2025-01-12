@@ -220,8 +220,8 @@ class exer1 {
             }
             if (!flag && low == 0 && low == 1) {
                 System.out.print(low + ", ");
-                ++low;
             }
+            ++low;
         }
     }
 }
