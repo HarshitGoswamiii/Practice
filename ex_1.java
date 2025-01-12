@@ -213,10 +213,13 @@ class exer1 {
         boolean flag = false;
         for (int i = low; i <= high; i++) {
             for (int j = 2; j < i / 2; j++) {
-                flag = true;
-                break;
+                if (i % j != 0) {
+                    flag = true;
+                    break;
+                }
             }
-            System.out.println(i);
+            if (!flag && low != 0 && low != 1)
+                System.out.print(low + " ");
         }
     }
 }
