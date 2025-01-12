@@ -218,7 +218,7 @@ class exer1 {
                     break;
                 }
             }
-            if (!flag && low == 0 && low == 1) {
+            if (!flag) {
                 System.out.print(low + ", ");
             }
             ++low;
@@ -248,6 +248,6 @@ public class ex_1 {
         // tag.power_of_number(2, 4);
         // tag.palindrome(127921);
         // tag.prime(7);
-        tag.prime_intervals(10, 20);
+        tag.prime_intervals(10, 15);
     }
 }
