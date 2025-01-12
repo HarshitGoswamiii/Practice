@@ -164,9 +164,11 @@ class exer1 {
 
     // Question 17
     public void power_of_number(int num, int power) {
-        for (int i = 0; i <= power; i++) {
-            
+        int result = 1;
+        for (int i = 0; i < power; i++) {
+            result *= num;
         }
+        System.out.println(result);
     }
 }
 
@@ -188,6 +190,7 @@ public class ex_1 {
         // tag.fibonacci(10);
         // tag.alphabet_display();
         // tag.count_of_digits(21332156);
-        tag.reverse_number(123639);
+        // tag.reverse_number(123639);
+        tag.power_of_number(2, 2);
     }
 }
