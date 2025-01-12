@@ -207,6 +207,11 @@ class exer1 {
             System.out.println("Not A Prime Number");
         }
     }
+
+    // Question 20
+    public void prime_intervals(int low, int high) {
+        
+    }
 }
 
 public class ex_1 {
