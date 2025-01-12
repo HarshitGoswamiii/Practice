@@ -210,7 +210,14 @@ class exer1 {
 
     // Question 20
     public void prime_intervals(int low, int high) {
-        
+        boolean flag = false;
+        for (int i = low; i <= high; i++) {
+            for (int j = 2; j < i / 2; j++) {
+                flag = true;
+                break;
+            }
+            System.out.println(i);
+        }
     }
 }
 
@@ -235,6 +242,7 @@ public class ex_1 {
         // tag.reverse_number(123639);
         // tag.power_of_number(2, 4);
         // tag.palindrome(127921);
-        tag.prime(7);
+        // tag.prime(7);
+        tag.prime_intervals(10, 20);
     }
 }
