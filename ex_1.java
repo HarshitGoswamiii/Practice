@@ -173,6 +173,7 @@ class exer1 {
 
     // Question 18
     public void palindrome(int number) {
+        int num = number;
         System.out.println("Original Number : " + number);
         int reverse = 0;
         while (number != 0) {
@@ -181,7 +182,7 @@ class exer1 {
             number /= 10;
         }
         System.out.println("Reversed Number : " + reverse);
-        if (number == reverse) {
+        if (num == reverse) {
             System.out.println("It is A Palidrome Number !");
         } else {
             System.out.println("It is Not A Palidrome Number !");
@@ -209,6 +210,6 @@ public class ex_1 {
         // tag.count_of_digits(21332156);
         // tag.reverse_number(123639);
         // tag.power_of_number(2, 4);
-        tag.palindrome(1221);
+        tag.palindrome(127921);
     }
 }
