@@ -188,6 +188,25 @@ class exer1 {
             System.out.println("It is Not A Palidrome Number !");
         }
     }
+
+    // Question 19
+    public void prime(int number) {
+        boolean flag = false;
+        if (number == 0 || number == 1) {
+            flag = true;
+        }
+        for (int i = 2; i < number / 2; i++) {
+            if (number % i == 0) {
+                flag = true;
+                break;
+            }
+        }
+        if (!flag) {
+            System.out.println("It is Prime Number");
+        } else {
+            System.out.println("Not A Prime Number");
+        }
+    }
 }
 
 public class ex_1 {
@@ -210,6 +229,7 @@ public class ex_1 {
         // tag.count_of_digits(21332156);
         // tag.reverse_number(123639);
         // tag.power_of_number(2, 4);
-        tag.palindrome(127921);
+        // tag.palindrome(127921);
+        tag.prime(7);
     }
 }
