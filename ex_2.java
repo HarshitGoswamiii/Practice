@@ -2,6 +2,11 @@ class practice {
     public void encryption(char grade) {
         System.out.println((char) (grade + 3));
     }
+
+    // Question 2
+    public void expression() {
+        int number = ((v*v)-(u*u))/2as;
+    }
 }
 
 class ex_2 {
