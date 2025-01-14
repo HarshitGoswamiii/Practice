@@ -1,6 +1,6 @@
 class practice {
     public void encryption(char grade) {
-        System.out.println((char) (grade + 8));
+        System.out.println((char) (grade + 3));
     }
 }
 
