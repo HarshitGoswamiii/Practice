@@ -10,7 +10,9 @@ class practice {
 }
 
 class stringss {
-    public void 
+    public void converion(String name) {
+        
+    }
 }
 
 class ex_2 {
