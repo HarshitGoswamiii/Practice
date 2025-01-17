@@ -5,7 +5,7 @@ class practice {
 
     // Question 2
     public void expression() {
-        int number = ((v*v)-(u*u))/2as;
+        System.out.println("((v*v)-(u*u))/2as"); 
     }
 }
 
