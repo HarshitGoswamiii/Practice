@@ -36,11 +36,24 @@ class Tax {
     }
 }
 
-class practice_set{
+class practice_set {
 
-    public void weekday(int day){
-        switch(day){
-            
+    public void weekday(int day) {
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+            case 2:
+                System.out.println("Tuesday");
+            case 3:
+                System.out.println("Wednesday");
+            case 4:
+                System.out.println("Thursday");
+            case 5:
+                System.out.println("Friday");
+            case 6:
+                System.out.println("Saturday");
+            case 7:
+                System.out.println("Sumday");
         }
     }
 }
@@ -51,7 +64,11 @@ public class Conditionals {
         // Grade hello = new Grade();
         // hello.passing_marks(43, 54, 48);
 
-        Tax income = new Tax();
-        income.income_tax(700000);
+        // Tax income = new Tax();
+        // income.income_tax(700000);
+
+        // Practice 
+        practice_set prc = new practice_set();
+        prc.weekday(3);
     }
 }
