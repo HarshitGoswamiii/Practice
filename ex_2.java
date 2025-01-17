@@ -28,7 +28,11 @@ class stringss {
         System.out.println(Letter.replace("</name/>", name));
     }
 
-    
+    // For finding the index of double space and triple space
+    public void detection(String Line) {
+        System.out.println(Line.indexOf("  "));
+        System.out.println(Line.indexOf("   "));
+    }
 }
 
 class ex_2 {
@@ -43,5 +47,6 @@ class ex_2 {
         // str.removal_space("I Am Kings !");
         // str.Template("Harshit Goswami");
         // str.Template("Arjun");
+        // str.detection("I am Harshit Goswmai ");
     }
 }
