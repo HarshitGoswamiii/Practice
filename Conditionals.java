@@ -36,6 +36,15 @@ class Tax {
     }
 }
 
+class practice_set{
+
+    public void weekday(int day){
+        switch(day){
+            
+        }
+    }
+}
+
 public class Conditionals {
     public static void main(String[] args) {
 
