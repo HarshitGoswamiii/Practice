@@ -27,6 +27,8 @@ class stringss {
         String Letter = "Dear </name/>, Thanks ALot !";
         System.out.println(Letter.replace("</name/>", name));
     }
+
+    
 }
 
 class ex_2 {
@@ -39,6 +41,7 @@ class ex_2 {
 
         // str.converion("Harshit");
         // str.removal_space("I Am Kings !");
-        str.Template("Harshit Goswami");
+        // str.Template("Harshit Goswami");
+        // str.Template("Arjun");
     }
 }
