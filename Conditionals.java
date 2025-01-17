@@ -5,13 +5,14 @@ class Grade {
         double result = ((subject_1 + subject_2 + subject_3) / 300.0) * 100;
         String Formatted = String.format("%.2f", result);
         System.out.println("Percentage : " + Formatted + "%");
-        if (result >= 33) {
-            System.out.println("Pass");
-        } else {
-            System.out.println("Fail");
+        if (subject_1 >= 33 && subject_2 >= 33 && subject_3 >= 33) {
+            if (result >= 40) {
+                System.out.println("Pass");
+            } else {
+                System.out.println("Fail");
+            }
         }
     }
-
 }
 
 public class Conditionals {
