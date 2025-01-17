@@ -11,13 +11,16 @@ class practice {
 
 class stringss {
 
-    //For Conversion of string to lower case
-    public void converion(String name) { 
+    // For Conversion of string to lower case
+    public void converion(String name) {
         // System.out.println(name.toLowerCase());
         System.out.println(name.toUpperCase());
     }
-    
-    public void 
+
+    // For Removing spaces/blank from string
+    public void removal_space(String Spaces) {
+
+    }
 }
 
 class ex_2 {
@@ -29,6 +32,6 @@ class ex_2 {
         stringss str = new stringss();
 
         // str.converion("Harshit");
-        
+
     }
 }
