@@ -22,17 +22,17 @@ class Tax {
         if (income < 249999) {
             System.out.println("No Tax !");
         } else if (income > 250000 && income < 499999) {
-            tax = income * 5 / 100;
+            tax = (income - 250000) * 5 / 100;
             total_tax = total_tax + tax;
         } else if (income > 500000 && income < 999999) {
-            tax2 = income * 20 / 100;
-            total_tax = total_tax + tax2;
+            tax = (income - 500000) * 20 / 100;
+            total_tax = total_tax + tax + (250000 * 5 / 100);
         } else if (income < 1000000) {
-            tax3 = income * 30 / 100;
-            total_tax = total_tax + tax3;
+            tax = (income - 1000000) * 30 / 100;
+            total_tax = total_tax + tax + (250000 * 5 / 100) + (500000 * 20 / 100);
         }
 
-        System.out.println("Total Ammount Payable : " + (income + total_tax));
+        System.out.println("Tax Payable : " + total_tax);
     }
 }
 
