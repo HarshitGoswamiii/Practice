@@ -9,6 +9,10 @@ class practice {
     }
 }
 
+class stringss {
+    public void 
+}
+
 class ex_2 {
     public static void main(String[] args) {
         practice prc = new practice();
