@@ -11,7 +11,8 @@ class practice {
 
 class stringss {
     public void converion(String name) {
-        System.out.println(name.toLowerCase());
+        // System.out.println(name.toLowerCase());
+        System.out.println(name.toUpperCase());
     }
 }
 
@@ -19,7 +20,7 @@ class ex_2 {
     public static void main(String[] args) {
         practice prc = new practice();
         // prc.encryption('a');
-        prc.expression();
+        // prc.expression();
 
         stringss str = new stringss();
         str.converion("Harshit");
