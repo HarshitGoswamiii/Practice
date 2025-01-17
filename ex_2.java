@@ -34,7 +34,9 @@ class stringss {
         System.out.println(Line.indexOf("   "));
     }
 
-    
+    public void avoid_sequences(String Line) {
+        System.out.println(Line.replace(", ", "\n" + "\t"));
+    }
 }
 
 class ex_2 {
@@ -50,5 +52,6 @@ class ex_2 {
         // str.Template("Harshit Goswami");
         // str.Template("Arjun");
         // str.detection("I am Harshit Goswmai ");
+        str.avoid_sequences("Harshit Goswami, Age 19 ,, DAV ");
     }
 }
