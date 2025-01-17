@@ -10,10 +10,14 @@ class practice {
 }
 
 class stringss {
-    public void converion(String name) {
+
+    //For Conversion of string to lower case
+    public void converion(String name) { 
         // System.out.println(name.toLowerCase());
         System.out.println(name.toUpperCase());
     }
+    
+    public void 
 }
 
 class ex_2 {
@@ -23,6 +27,8 @@ class ex_2 {
         // prc.expression();
 
         stringss str = new stringss();
-        str.converion("Harshit");
+
+        // str.converion("Harshit");
+        
     }
 }
