@@ -78,6 +78,6 @@ public class Conditionals {
 
         // Practice
         practice_set prc = new practice_set();
-        prc.weekday(3);
+        prc.weekday(9);
     }
 }
