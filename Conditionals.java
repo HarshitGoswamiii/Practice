@@ -21,10 +21,10 @@ class Tax {
         System.out.println("Income : " + income);
         if (income < 249999) {
             System.out.println("No Tax !");
-        } else if (income > 250000 || income < 499999) {
+        } else if (income > 250000 && income < 499999) {
             tax = income * 5 / 100;
             total_tax = total_tax + tax;
-        } else if (income > 500000 || income < 999999) {
+        } else if (income > 500000 && income < 999999) {
             tax2 = income * 20 / 100;
             total_tax = total_tax + tax2;
         } else if (income < 1000000) {
@@ -41,5 +41,8 @@ public class Conditionals {
 
         // Grade hello = new Grade();
         // hello.passing_marks(43, 54, 48);
+
+        Tax income = new Tax();
+        income.income_tax(450000);
     }
 }
