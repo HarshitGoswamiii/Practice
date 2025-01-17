@@ -19,7 +19,7 @@ class stringss {
 
     // For Removing spaces/blank from string
     public void removal_space(String Spaces) {
-
+        System.out.println(Spaces.replace(" ", "_"));
     }
 }
 
@@ -32,6 +32,6 @@ class ex_2 {
         stringss str = new stringss();
 
         // str.converion("Harshit");
-
+        str.removal_space("I Am Kings !");
     }
 }
