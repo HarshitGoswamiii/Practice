@@ -33,6 +33,8 @@ class stringss {
         System.out.println(Line.indexOf("  "));
         System.out.println(Line.indexOf("   "));
     }
+
+    
 }
 
 class ex_2 {
