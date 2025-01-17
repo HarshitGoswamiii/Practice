@@ -19,7 +19,13 @@ class stringss {
 
     // For Removing spaces/blank from string
     public void removal_space(String Spaces) {
-        System.out.println(Spaces.replace(" ", "_"));
+        System.out.println(Spaces.replace(" ", "-"));
+    }
+
+    // For Creating Template
+    public void Template(String name) {
+        String Letter = "Dear </name/>, Thanks ALot !";
+        System.out.println(Letter.replace("</name/>", name));
     }
 }
 
@@ -32,6 +38,7 @@ class ex_2 {
         stringss str = new stringss();
 
         // str.converion("Harshit");
-        str.removal_space("I Am Kings !");
+        // str.removal_space("I Am Kings !");
+        str.Template("Harshit Goswami");
     }
 }
