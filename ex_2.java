@@ -52,6 +52,6 @@ class ex_2 {
         // str.Template("Harshit Goswami");
         // str.Template("Arjun");
         // str.detection("I am Harshit Goswmai ");
-        str.avoid_sequences("Harshit Goswami, Age 19 ,, DAV ");
+        str.avoid_sequences("Harshit Goswami, Age 19 , DAV ");
     }
 }
