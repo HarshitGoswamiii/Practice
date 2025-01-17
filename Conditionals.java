@@ -17,7 +17,7 @@ class Grade {
 
 class Tax {
     public void income_tax(int income) {
-        int tax, tax2, tax3, total_tax = 0;
+        int tax = 0, total_tax = 0;
         System.out.println("Income : " + income);
         if (income < 249999) {
             System.out.println("No Tax !");
@@ -32,7 +32,7 @@ class Tax {
             total_tax = total_tax + tax3;
         }
 
-        System.out.println("Total Ammount Payable : " + income + total_tax);
+        System.out.println("Total Ammount Payable : " + (income + total_tax));
     }
 }
 
@@ -43,6 +43,6 @@ public class Conditionals {
         // hello.passing_marks(43, 54, 48);
 
         Tax income = new Tax();
-        income.income_tax(450000);
+        income.income_tax(700000);
     }
 }
