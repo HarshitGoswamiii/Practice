@@ -42,18 +42,27 @@ class practice_set {
         switch (day) {
             case 1:
                 System.out.println("Monday");
+                break;
             case 2:
                 System.out.println("Tuesday");
+                break;
             case 3:
                 System.out.println("Wednesday");
+                break;
             case 4:
                 System.out.println("Thursday");
+                break;
             case 5:
                 System.out.println("Friday");
+                break;
             case 6:
                 System.out.println("Saturday");
+                break;
             case 7:
                 System.out.println("Sumday");
+                break;
+            default:
+                System.out.println("Entered Number Is Incorrect !");
         }
     }
 }
@@ -67,7 +76,7 @@ public class Conditionals {
         // Tax income = new Tax();
         // income.income_tax(700000);
 
-        // Practice 
+        // Practice
         practice_set prc = new practice_set();
         prc.weekday(3);
     }
