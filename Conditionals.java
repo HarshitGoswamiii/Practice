@@ -91,6 +91,6 @@ public class Conditionals {
         // Practice
         practice_set prc = new practice_set();
         // prc.weekday(9);
-        prc.website("google.com");
+        prc.website("microsoft.in");
     }
 }
