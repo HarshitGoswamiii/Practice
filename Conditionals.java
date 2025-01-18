@@ -65,6 +65,18 @@ class practice_set {
                 System.out.println("Entered Number Is Incorrect !");
         }
     }
+
+    // Question 6 :-
+    public void website(String Website) {
+        System.out.println("Website : " + Website);
+        if (Website.endsWith(".com")) {
+            System.out.println("Commercial Website.");
+        } else if (Website.endsWith(".org")) {
+            System.out.println("Organization Website.");
+        } else if (Website.endsWith(".in")) {
+            System.out.println("Indian Website.");
+        }
+    }
 }
 
 public class Conditionals {
