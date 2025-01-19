@@ -1,5 +1,5 @@
 class loops {
-    int a = 10;
+    int a = 1;
 
     public void while_looping() {
         while (a < 200) {
