@@ -1,17 +1,24 @@
 class loops {
+    int a = 10;
+
     public void while_looping() {
-        int a = 10;
         while (a < 200) {
             System.out.println(a);
             a++;
         }
+    }
+
+    public void do_looping() {
+        do {
+            System.out.println(a);
+        } while (a < 20);
     }
 }
 
 public class looping {
     public static void main(String[] args) {
         loops looping = new loops();
-        looping.while_looping();
+        looping.do_looping();
     }
 
 }
