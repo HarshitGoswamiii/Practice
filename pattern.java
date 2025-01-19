@@ -10,6 +10,8 @@ class patterning {
 
 public class pattern {
     static public void main(String[] args) {
-        
+
+        patterning ptr = new patterning();
+        ptr.patterns();
     }
 }
