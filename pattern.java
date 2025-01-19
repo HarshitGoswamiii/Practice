@@ -1,9 +1,19 @@
 class patterning {
     public void patterns() {
-        for (int i = 0; i < 5; i++) {
-            System.out.print("*");
+        for (int j = 5; j >= 0; j--) {
+            for (int i = 0; i < j; i++) {
+                System.out.print("* ");
+            }
+            System.out.println(" ");
         }
-        System.out.println(" ");
+    }
+
+    public void addition(int range) {
+        int sum = 0, i = 0;
+        while (i < range) {
+            sum = sum + i;
+            i++;
+        }
     }
 
 }
