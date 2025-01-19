@@ -11,6 +11,7 @@ class loops {
     public void do_looping() {
         do {
             System.out.println(a);
+            a++;
         } while (a < 20);
     }
 }
