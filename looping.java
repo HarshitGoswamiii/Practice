@@ -9,5 +9,9 @@ class loops {
 }
 
 public class looping {
+    public static void main(String[] args) {
+        loops looping = new loops();
+        looping.while_looping();
+    }
 
 }
