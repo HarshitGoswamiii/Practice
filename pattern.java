@@ -10,7 +10,7 @@ class patterning {
 
     public void addition(int range) {
         int sum = 0, i = 0;
-        while (i < range) {
+        while (i <= range) {
             sum = sum + i;
             i++;
         }
@@ -24,6 +24,6 @@ public class pattern {
 
         patterning ptr = new patterning();
         // ptr.patterns();
-        ptr.addition(5);
+        ptr.addition(3);
     }
 }
