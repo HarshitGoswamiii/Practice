@@ -14,6 +14,7 @@ class patterning {
             sum = sum + i;
             i++;
         }
+        System.out.println(sum);
     }
 
 }
@@ -22,6 +23,7 @@ public class pattern {
     static public void main(String[] args) {
 
         patterning ptr = new patterning();
-        ptr.patterns();
+        // ptr.patterns();
+        ptr.addition(5);
     }
 }
