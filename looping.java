@@ -17,9 +17,10 @@ class loops {
 
     public void for_looping() {
         for (int i = 20; i >= a; i--) {
-            if (i % 2 == 1) {
-                System.out.println(i);
+            if (i % 2 == 0) {
+                continue;
             }
+            System.out.println(i);
         }
     }
 }
