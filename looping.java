@@ -1,7 +1,7 @@
 class loops {
     public void while_looping() {
         int a = 10;
-        while (a >= 10) {
+        while (a <= 200) {
             System.out.println(a);
             a++;
         }
