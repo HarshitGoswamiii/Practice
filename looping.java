@@ -14,12 +14,18 @@ class loops {
             a++;
         } while (a < 20);
     }
+
+    public void for_looping() {
+        for (int i = a; i <= i + 1; i++) {
+            System.out.println(i);
+        }
+    }
 }
 
 public class looping {
     public static void main(String[] args) {
         loops looping = new loops();
-        looping.do_looping();
+        looping.for_looping();
     }
 
 }
