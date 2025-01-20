@@ -25,6 +25,14 @@ class patterning {
         }
     }
 
+    public void reverse_table(int number) {
+        int i = 10;
+        while (i >= 1) {
+            System.out.println(number + " * " + i + " : " + (number * i));
+            i--;
+        }
+    }
+
 }
 
 public class pattern {
@@ -33,6 +41,7 @@ public class pattern {
         patterning ptr = new patterning();
         // ptr.patterns();
         // ptr.addition(5);
-        ptr.multiplication_table(7);
+        // ptr.multiplication_table(7);
+        ptr.reverse_table(2);
     }
 }
