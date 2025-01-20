@@ -47,14 +47,14 @@ class patterning {
 
     // Pyramid using while loop
     public void pyramid_while() {
-        int range = 5, i = range;
-        while (i > 0) {
+        int range = 5, i = 1;
+        while (i < range) {
             int j = i;
-            while (j > 0) {
+            while (j < i) {
                 System.out.print("* ");
-                j--;
+                j++;
             }
-            i--;
+            i++;
             System.out.println(" ");
         }
     }
