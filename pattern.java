@@ -59,8 +59,12 @@ class patterning {
         }
     }
 
-    public void sum_of_table_8(){
-        int sum=0;
+    public void sum_of_table_8() {
+        int sum = 0;
+        for (int i = 1; i <= 10; i++) {
+            sum += (8 * i);
+        }
+        System.out.println("The Sum of number : " + sum);
     }
 }
 
@@ -73,6 +77,7 @@ public class pattern {
         // ptr.multiplication_table(7);
         // ptr.reverse_table(2);
         // ptr.factorial(6);
-        ptr.pyramid_while();
+        // ptr.pyramid_while();
+        ptr.sum_of_table_8();
     }
 }
