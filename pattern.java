@@ -33,6 +33,6 @@ public class pattern {
         patterning ptr = new patterning();
         // ptr.patterns();
         // ptr.addition(5);
-        ptr.multiplication_table(2);
+        ptr.multiplication_table(7);
     }
 }
