@@ -1,4 +1,5 @@
 class patterning {
+    // Quetion 1
     public void patterns() {
         for (int j = 5; j >= 0; j--) {
             for (int i = 0; i < j; i++) {
@@ -8,6 +9,7 @@ class patterning {
         }
     }
 
+    // Quetion 2
     public void addition(int range) {
         int sum = 0, i = 0;
         while (i <= range) {
@@ -17,6 +19,7 @@ class patterning {
         System.out.println(sum);
     }
 
+    // Quetion 3
     public void multiplication_table(int number) {
         int i = 1;
         while (i <= 10) {
@@ -25,6 +28,7 @@ class patterning {
         }
     }
 
+    // Quetion 4
     public void reverse_table(int number) {
         int i = 10;
         while (i >= 1) {
@@ -33,6 +37,7 @@ class patterning {
         }
     }
 
+    // Quetion 5
     public void factorial(int value) {
         int facts = 1, i = value;
         // for (int i = value; i > 0; i--) {
@@ -45,6 +50,7 @@ class patterning {
         System.out.println(facts);
     }
 
+    // Quetion 6
     // Pyramid using while loop
     public void pyramid_while() {
         int range = 5, i = 1;
@@ -59,12 +65,25 @@ class patterning {
         }
     }
 
+    // Quetion 7
     public void sum_of_table_8() {
-        int sum = 0;
-        for (int i = 1; i <= 10; i++) {
+        int sum = 0, i = 1;
+        // for (int i = 1; i <= 10; i++) {
+        // sum += (8 * i);
+        // }
+        while (i <= 10) {
             sum += (8 * i);
+            i++;
         }
         System.out.println("The Sum of number : " + sum);
+    }
+
+    // Quetion 8
+    public void sum_using_forloop() {
+        int number = 5;
+        for (int i = 0; i <= number; i++) {
+
+        }
     }
 }
 
