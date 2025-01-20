@@ -80,10 +80,11 @@ class patterning {
 
     // Quetion 8
     public void sum_using_forloop() {
-        int number = 5;
+        int number = 5, sum = 0;
         for (int i = 0; i <= number; i++) {
-
+            sum += i;
         }
+        System.out.println(sum);
     }
 }
 
@@ -97,6 +98,7 @@ public class pattern {
         // ptr.reverse_table(2);
         // ptr.factorial(6);
         // ptr.pyramid_while();
-        ptr.sum_of_table_8();
+        // ptr.sum_of_table_8();
+        ptr.sum_using_forloop();
     }
 }
