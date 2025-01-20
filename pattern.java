@@ -34,24 +34,25 @@ class patterning {
     }
 
     public void factorial(int value) {
-        int facts = 1, i=value;
+        int facts = 1, i = value;
         // for (int i = value; i > 0; i--) {
-        //     facts *= i;
+        // facts *= i;
         // }
-        while(i>=1){
-            facts*=i;
+        while (i >= 1) {
+            facts *= i;
             i--;
         }
         System.out.println(facts);
     }
 
     // Pyramid using while loop
-    public void pyramid_while(){
-        int range = 5; int i=range;
-        while(range>=i){
-            while(i<=range){
+    public void pyramid_while() {
+        int range = 5, i = range;
+        while (i > 0) {
+            int j = i;
+            while (j > 0) {
                 System.out.print("* ");
-                range--;
+                j--;
             }
             i--;
             System.out.println(" ");
