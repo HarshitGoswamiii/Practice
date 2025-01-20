@@ -45,6 +45,13 @@ class patterning {
         System.out.println(facts);
     }
 
+    // Pyramid using while loop
+    public void pyramid_while(){
+        int range = 5;
+        while(range>=1){
+            System.out.println("* ");
+        }
+    }
 }
 
 public class pattern {
@@ -55,6 +62,7 @@ public class pattern {
         // ptr.addition(5);
         // ptr.multiplication_table(7);
         // ptr.reverse_table(2);
-        ptr.factorial(6);
+        // ptr.factorial(6);
+        ptr.pyramid_while();
     }
 }
