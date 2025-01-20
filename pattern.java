@@ -24,6 +24,6 @@ public class pattern {
 
         patterning ptr = new patterning();
         // ptr.patterns();
-        ptr.addition(3);
+        ptr.addition(5);
     }
 }
