@@ -33,6 +33,14 @@ class patterning {
         }
     }
 
+    public void factorial(int value) {
+        int facts = 1;
+        for (int i = value; i >= 0; i++) {
+            facts *= i;
+        }
+        System.out.println(facts);
+    }
+
 }
 
 public class pattern {
@@ -42,6 +50,7 @@ public class pattern {
         // ptr.patterns();
         // ptr.addition(5);
         // ptr.multiplication_table(7);
-        ptr.reverse_table(2);
+        // ptr.reverse_table(2);
+        ptr.factorial(5);
     }
 }
