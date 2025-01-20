@@ -34,11 +34,11 @@ class patterning {
     }
 
     public void factorial(int value) {
-        int facts = 1, i=1;
+        int facts = 1, i=value;
         // for (int i = value; i > 0; i--) {
         //     facts *= i;
         // }
-        while(value>=i){
+        while(i>=1){
             facts*=i;
             i--;
         }
