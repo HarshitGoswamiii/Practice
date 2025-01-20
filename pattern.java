@@ -17,6 +17,13 @@ class patterning {
         System.out.println(sum);
     }
 
+    public void multiplication_table(int number) {
+        int i = 1;
+        while (i <= 10) {
+            System.out.println(number + " * " + i + " : " + (number * i));
+        }
+    }
+
 }
 
 public class pattern {
@@ -24,6 +31,7 @@ public class pattern {
 
         patterning ptr = new patterning();
         // ptr.patterns();
-        ptr.addition(5);
+        // ptr.addition(5);
+        ptr.multiplication_table(2);
     }
 }
