@@ -59,7 +59,9 @@ class patterning {
         }
     }
 
-    
+    public void sum_of_table_8(){
+        int sum=0;
+    }
 }
 
 public class pattern {
