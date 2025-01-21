@@ -27,7 +27,7 @@ class arrayss {
 
     // Question 1
     public void question_1() {
-        int sum = 0;
+        float sum = 0;
         float[] arrey1 = { 2.4f, 8.3f, 3.5f, 9.6f, 9.3f };
         for (int i = 0; i < arrey1.length; i++) {
             sum += arrey1[i];
