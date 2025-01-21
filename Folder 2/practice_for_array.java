@@ -100,7 +100,7 @@ class arrayss {
         System.out.println("Maximum Element : " + max);
     }
     
-    // Question 6
+    // Question 7
     public void minimum() {
         int[] array = { 32, 54, 22, 63, 17 };
         int min = array[0];
@@ -110,6 +110,17 @@ class arrayss {
             }
         }
         System.out.println("Maximum Element : " + min);
+    }
+
+    // Question 8
+    public void sorted(){
+        int[] array = { 32, 54, 22, 63, 17 };
+        boolean sort=false;
+        for (int i = 0; i < array.length; i++) {
+            if(array[i]>array[0]){
+                sort =true;
+            }
+        }
     }
 }
 
