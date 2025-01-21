@@ -116,13 +116,9 @@ class arrayss {
     public void sorted(){
         int[] array = { 32, 54, 22, 63, 17 };
         boolean sort=false;
-        for (int i = 0; i < array.length; i++) {
-            if(array[i]>array[0]){
+        for (int i = 0; i < array.length-1; i++) {
+            if(array[i]>array[i+1]){
                 continue;
-            }
-            else {
-                sort=true;
-                break;
             }
         }
         if(!sort){
@@ -145,6 +141,7 @@ public class practice_for_array {
         // prc.two_D_matrix();
         // prc.reverse_array();
         // prc.maximum();
-        prc.minimum();
+        // prc.minimum();
+        prc.sorted();
     }
 }
