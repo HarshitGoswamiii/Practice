@@ -10,14 +10,16 @@ class arrayss {
     }
 
     public void md_arrays() {
-        int[][] arr2 = new int[2][2];
-        arr2[0][0] = 100;
-        arr2[0][1] = 103;
-        arr2[1][0] = 105;
-        arr2[1][1] = 102;
+        int[][][] arr2 = new int[2][2][2];
+        arr2[0][0][0] = 100;
+        arr2[0][1][1] = 103;
+        arr2[1][0][0] = 213;
+        arr2[1][1][1] = 243;
         for (int i = 0; i < arr2.length; i++) {
             for (int j = 0; j < arr2[i].length; j++) {
-                System.out.print(arr2[i][j]+" ");
+                for(int k=0;k<arr2[j].length;k++){
+                    System.out.print(arr2[i][j][k] + " ");
+                }
             }
             System.out.println();
         }
