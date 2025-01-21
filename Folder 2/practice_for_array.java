@@ -114,17 +114,17 @@ class arrayss {
 
     // Question 8
     public void sorted() {
-        int[] array = { 32, 34, 43, 63, 77 };
+        int[] array = { 32, 34, 94, 63, 77 };
         System.out.print("{ ");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] + ", ");
         }
         System.out.println("}");
-        boolean sort = false;
+        boolean sort = true;
         for (int i = 0; i < array.length - 1; i++) {
             if (array[i] > array[i + 1]) {
-                sort = true;
-                continue;
+                sort = false;
+                break;
             }
         }
         if (!sort) {
