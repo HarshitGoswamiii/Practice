@@ -4,8 +4,16 @@ public class methoding {
         return c;
     }
 
+    void print(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+    }
+
     public static void main(String[] args) {
         methoding obj = new methoding();
-        System.out.println(obj.mysum(98, 31));
+        // System.out.println(obj.mysum(98, 31));
+        int[] arr1 = { 23, 43, 2, 11, 43 };
+        obj.print(arr1);
     }
 }
