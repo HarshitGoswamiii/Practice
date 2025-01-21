@@ -74,7 +74,7 @@ class arrayss {
         for (int i = 0; i < arr1.length; i++) {
             System.out.println("| ");
             for (int j = 0; j < arr1[i].length; j++) {
-                System.out.println(arr1[i][j]+" ");
+                System.out.print(arr1[i][j]+" ");
             }
             System.out.println(" |");
         }
