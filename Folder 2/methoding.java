@@ -6,6 +6,6 @@ public class methoding {
 
     public static void main(String[] args) {
         methoding obj = new methoding();
-        obj.mysum(2, 3);
+        System.out.println(obj.mysum(98, 31));
     }
 }
