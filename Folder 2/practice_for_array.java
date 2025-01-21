@@ -10,8 +10,8 @@ class arrayss {
     }
 
     public void md_arrays() {
-        int[][] arr2=new int[2][2];
-        int[0][0] arr2=100;
+        int[][] arr2 = new int[2][2];
+        arr2[0][0] = 100;
     }
 }
 
