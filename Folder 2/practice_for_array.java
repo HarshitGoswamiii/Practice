@@ -37,13 +37,17 @@ class arrayss {
 
     public void question_2(int number) {
         int[] arrey2 = { 21, 23, 43, 44, 63, 22 };
+        boolean aering = false;
         System.out.println("Entered Number : " + number);
         for (int i = 0; i < arrey2.length; i++) {
             if (arrey2[i] == number) {
-                System.out.println("The Element is Present in this Array ! ");
-            } else {
-                System.out.println("Not Present !");
+                aering = true;
             }
+        }
+        if (!aering) {
+            System.out.println("Present !");
+        } else {
+            System.out.println("Not Present !");
         }
     }
 }
