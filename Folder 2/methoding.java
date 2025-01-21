@@ -25,6 +25,6 @@ public class methoding {
         // System.out.println(obj.mysum(98, 31));
         // int[] arr1 = { 23, 43, 2, 11, 43 };
         // obj.mysum(arr1);
-        obj.sum(21, 32);
+        obj.sum(21,21,33, 32);
     }
 }
