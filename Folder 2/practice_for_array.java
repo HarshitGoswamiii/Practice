@@ -87,6 +87,30 @@ class arrayss {
             System.out.print(array[i] + ", ");
         }
     }
+
+    // Question 6
+    public void maximum() {
+        int[] array = { 32, 54, 22, 63, 13 };
+        int max = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (max <= array[i]) {
+                max = array[i];
+            }
+        }
+        System.out.println("Maximum Element : " + max);
+    }
+    
+    // Question 6
+    public void minimum() {
+        int[] array = { 32, 54, 22, 63, 17 };
+        int min = array[0];
+        for (int i = 0; i < array.length; i++) {
+            if (min >= array[i]) {
+                min = array[i];
+            }
+        }
+        System.out.println("Maximum Element : " + min);
+    }
 }
 
 public class practice_for_array {
@@ -98,6 +122,8 @@ public class practice_for_array {
         // prc.question_2(29);
         // prc.marks();
         // prc.two_D_matrix();
-        prc.reverse_array();
+        // prc.reverse_array();
+        // prc.maximum();
+        prc.minimum();
     }
 }
