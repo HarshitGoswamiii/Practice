@@ -1,7 +1,7 @@
 class arrayss {
     public void practice() {
         int[] arr1 = { 10, 23, 13, 32, 33 };
-        for (int i = arr1.length - 1; i > 0; i--) {
+        for (int i = arr1.length - 1; i >= 0; i--) {
             System.out.print(arr1[i] + ", ");
         }
     }
