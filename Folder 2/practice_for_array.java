@@ -114,7 +114,7 @@ class arrayss {
 
     // Question 8
     public void sorted() {
-        int[] array = { 32, 34, 94, 63, 77 };
+        int[] array = { 32, 34, 54, 63, 77 };
         System.out.print("{ ");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] + ", ");
