@@ -11,7 +11,7 @@ public class methoding {
 
     }
 
-    static void sum(int... arr) {
+    static void sum(int a, int... arr) {
         int result = 0;
         for (int element : arr) {
             result += element;
@@ -25,6 +25,6 @@ public class methoding {
         // System.out.println(obj.mysum(98, 31));
         // int[] arr1 = { 23, 43, 2, 11, 43 };
         // obj.mysum(arr1);
-        obj.sum(21,21,33, 32);
+        obj.sum(21, 21, 33, 32);
     }
 }
