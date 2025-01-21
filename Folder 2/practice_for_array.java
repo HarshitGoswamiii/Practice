@@ -61,6 +61,22 @@ class arrayss {
         }
         System.out.println("Average : " + (sum / (student_marks.length - 1)));
     }
+
+    // Question 4
+    public void two_D_matrix() {
+        int[][] arr1 = new int[2][3];
+        arr1[0][0] = 32;
+        arr1[0][1] = 36;
+        arr1[0][2] = 76;
+        arr1[1][0] = 98;
+        arr1[1][1] = 22;
+        arr1[1][2] = 64;
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = 0; j < arr1[i].length; j++) {
+                
+            }
+        }
+    }
 }
 
 public class practice_for_array {
