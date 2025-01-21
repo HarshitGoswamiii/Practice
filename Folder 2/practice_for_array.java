@@ -83,8 +83,8 @@ class arrayss {
     // Question 4
     public void reverse_array() {
         int[] array = { 32, 54, 22, 63, 13 };
-        for (int i = array.length; i <= 0; i--) {
-            System.out.print(array[i]+" ");
+        for (int i = array.length - 1; i >= 0; i--) {
+            System.out.print(array[i] + ", ");
         }
     }
 }
@@ -97,6 +97,7 @@ public class practice_for_array {
         // prc.question_1();
         // prc.question_2(29);
         // prc.marks();
-        prc.two_D_matrix();
+        // prc.two_D_matrix();
+        prc.reverse_array();
     }
 }
