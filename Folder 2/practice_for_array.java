@@ -99,7 +99,7 @@ class arrayss {
         }
         System.out.println("Maximum Element : " + max);
     }
-    
+
     // Question 7
     public void minimum() {
         int[] array = { 32, 54, 22, 63, 17 };
@@ -113,18 +113,23 @@ class arrayss {
     }
 
     // Question 8
-    public void sorted(){
-        int[] array = { 32, 54, 22, 63, 17 };
-        boolean sort=false;
-        for (int i = 0; i < array.length-1; i++) {
-            if(array[i]>array[i+1]){
+    public void sorted() {
+        int[] array = { 32, 34, 43, 63, 77 };
+        System.out.print("{ ");
+        for (int j = 0; j < array.length; j++) {
+            System.out.print(array[j] + ", ");
+        }
+        System.out.println("}");
+        boolean sort = false;
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] > array[i + 1]) {
                 continue;
             }
         }
-        if(!sort){
-        System.out.println("It is not sorted !");
-        } else{
-        System.out.println("It is sorted !");
+        if (!sort) {
+            System.out.println("It is not sorted !");
+        } else {
+            System.out.println("It is sorted !");
 
         }
     }
