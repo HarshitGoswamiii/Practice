@@ -34,6 +34,15 @@ class arrayss {
         }
         System.out.println(sum);
     }
+
+    public void question_2(int number) {
+        int[] arrey2 = { 21, 23, 43, 44, 63, 22 };
+        for (int element : arrey2) {
+            if (element == number) {
+                System.out.println();
+            }
+        }
+    }
 }
 
 public class practice_for_array {
