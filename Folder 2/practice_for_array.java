@@ -35,6 +35,7 @@ class arrayss {
         System.out.println(sum);
     }
 
+    // Question 2
     public void question_2(int number) {
         int[] arrey2 = { 21, 23, 43, 44, 63, 22 };
         boolean aering = false;
@@ -45,10 +46,20 @@ class arrayss {
             }
         }
         if (!aering) {
-            System.out.println("Present !");
-        } else {
             System.out.println("Not Present !");
+        } else {
+            System.out.println("Present !");
         }
+    }
+
+    // Question 3
+    public void marks() {
+        int[] student_marks = { 34, 43, 55, 32, 51 };
+        int sum = 0;
+        for (int element : student_marks) {
+            sum += element;
+        }
+        System.out.println("Average : " + (sum / (student_marks.length - 1)));
     }
 }
 
@@ -58,6 +69,6 @@ public class practice_for_array {
         // prc.practice();
         // prc.md_arrays();
         // prc.question_1();
-        prc.question_2(23);
+        prc.question_2(29);
     }
 }
