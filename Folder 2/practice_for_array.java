@@ -74,9 +74,17 @@ class arrayss {
         for (int i = 0; i < arr1.length; i++) {
             System.out.print("| ");
             for (int j = 0; j < arr1[i].length; j++) {
-                System.out.print(arr1[i][j]+" ");
+                System.out.print(arr1[i][j] + " ");
             }
             System.out.println("|");
+        }
+    }
+
+    // Question 4
+    public void reverse_array() {
+        int[] array = { 32, 54, 22, 63, 13 };
+        for (int i = array.length; i <= 0; i--) {
+            System.out.print(array[i]+" ");
         }
     }
 }
