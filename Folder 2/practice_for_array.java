@@ -38,10 +38,10 @@ class arrayss {
     public void question_2(int number) {
         int[] arrey2 = { 21, 23, 43, 44, 63, 22 };
         System.out.println("Entered Number : " + number);
-        for (int element : arrey2) {
-            if (element == number) {
+        for (int i = 0; i < arrey2.length; i++) {
+            if (arrey2[i] == number) {
                 System.out.println("The Element is Present in this Array ! ");
-            } else{
+            } else {
                 System.out.println("Not Present !");
             }
         }
