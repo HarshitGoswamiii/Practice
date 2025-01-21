@@ -41,6 +41,8 @@ class arrayss {
         for (int element : arrey2) {
             if (element == number) {
                 System.out.println("The Element is Present in this Array ! ");
+            } else{
+                System.out.println("Not Present !");
             }
         }
     }
@@ -51,6 +53,7 @@ public class practice_for_array {
         arrayss prc = new arrayss();
         // prc.practice();
         // prc.md_arrays();
-        prc.question_1();
+        // prc.question_1();
+        prc.question_2(23);
     }
 }
