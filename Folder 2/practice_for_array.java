@@ -69,6 +69,7 @@ public class practice_for_array {
         // prc.practice();
         // prc.md_arrays();
         // prc.question_1();
-        prc.question_2(29);
+        // prc.question_2(29);
+        prc.marks();
     }
 }
