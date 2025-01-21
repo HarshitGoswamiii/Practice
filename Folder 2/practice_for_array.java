@@ -118,8 +118,18 @@ class arrayss {
         boolean sort=false;
         for (int i = 0; i < array.length; i++) {
             if(array[i]>array[0]){
-                sort =true;
+                continue;
             }
+            else {
+                sort=true;
+                break;
+            }
+        }
+        if(!sort){
+        System.out.println("It is not sorted !");
+        } else{
+        System.out.println("It is sorted !");
+
         }
     }
 }
