@@ -72,9 +72,11 @@ class arrayss {
         arr1[1][1] = 22;
         arr1[1][2] = 64;
         for (int i = 0; i < arr1.length; i++) {
+            System.out.println("| ");
             for (int j = 0; j < arr1[i].length; j++) {
-                
+                System.out.println(arr1[i][j]+" ");
             }
+            System.out.println(" |");
         }
     }
 }
@@ -86,6 +88,7 @@ public class practice_for_array {
         // prc.md_arrays();
         // prc.question_1();
         // prc.question_2(29);
-        prc.marks();
+        // prc.marks();
+        prc.two_D_matrix();
     }
 }
