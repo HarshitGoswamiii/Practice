@@ -72,11 +72,11 @@ class arrayss {
         arr1[1][1] = 22;
         arr1[1][2] = 64;
         for (int i = 0; i < arr1.length; i++) {
-            System.out.println("| ");
+            System.out.print("| ");
             for (int j = 0; j < arr1[i].length; j++) {
                 System.out.print(arr1[i][j]+" ");
             }
-            System.out.println(" |");
+            System.out.println("|");
         }
     }
 }
