@@ -24,15 +24,21 @@ public class recur {
     }
 
     // Fibonacci Series By Recursive Approach
-    static void fibonacci_recursive(int number) {
-        
+    static int fibonacci_recursive(int number) {
+        if (number <= 1) {
+            return number;
+        }
+        return fibonacci_recursive(number - 1) + fibonacci_recursive(number - 2);
     }
 
     public static void main(String[] args) {
 
         recur obj1 = new recur();
         // System.out.println(obj1.factorial(5));
-        obj1.fibonacci(10);
-
+        // obj1.fibonacci(10);
+        int n = 10;
+        for (int i = 0; i < n; i++) {
+            System.out.print(fibonacci_recursive(i) + ", ");
+        }
     }
 }
