@@ -24,8 +24,8 @@ public class recur {
     }
 
     // Fibonacci Series By Recursive Approach
-    static void fibonacci_iterative(int number) {
-
+    static void fibonacci_recursive(int number) {
+        
     }
 
     public static void main(String[] args) {
