@@ -1,11 +1,26 @@
 public class recur {
 
-    static public int factorial(int number) {
-        return number * factorial(number - 1);
+    static int factorial(int number) {
+        if (number == 0 || number == 1) {
+            return 1;
+        } else {
+            return number * factorial(number - 1);
+        }
+    }
+
+    // Fibonacci Series Using Recursion
+    static int fibonacci(int number) {
+        int start = 0, second = 1, nextTerm = 0;
+            
+
+
+        return number;
     }
 
     public static void main(String[] args) {
+
         recur obj1 = new recur();
-        obj1.factorial(3);
+        System.out.println(obj1.factorial(5));
+
     }
 }
