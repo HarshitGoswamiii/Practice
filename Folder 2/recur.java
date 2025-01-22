@@ -8,7 +8,7 @@ public class recur {
         }
     }
 
-    // Fibonacci Series Using Recursion
+    // Fibonacci Series By Simple Approach
     static void fibonacci(int number) {
         // For Printing
         System.out.println("Fibonacci Series : ");
@@ -23,11 +23,16 @@ public class recur {
         }
     }
 
+    // Fibonacci Series By Recursive Approach
+    static void fibonacci_iterative(int number) {
+
+    }
+
     public static void main(String[] args) {
 
         recur obj1 = new recur();
         // System.out.println(obj1.factorial(5));
         obj1.fibonacci(10);
-        
+
     }
 }
