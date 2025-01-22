@@ -9,18 +9,22 @@ public class recur {
     }
 
     // Fibonacci Series Using Recursion
-    static int fibonacci(int number) {
+    static void fibonacci(int number) {
+        System.out.println("Fibonacci Series : ");
         int start = 0, second = 1, nextTerm = 0;
-            
-
-
-        return number;
+        while (start < number) {
+            System.out.print(nextTerm + ", ");
+            start = second;
+            second = nextTerm;
+            nextTerm = start + second;
+        }
     }
 
     public static void main(String[] args) {
 
         recur obj1 = new recur();
-        System.out.println(obj1.factorial(5));
+        // System.out.println(obj1.factorial(5));
+        obj1.fibonacci(10);
 
     }
 }
