@@ -10,13 +10,16 @@ public class recur {
 
     // Fibonacci Series Using Recursion
     static void fibonacci(int number) {
+        // For Printing
         System.out.println("Fibonacci Series : ");
+        // Assigning the value ot variable
         int start = 0, second = 1, nextTerm = 0;
+        // Loop for Repetition until the start became equal to number
         while (start < number) {
             System.out.print(nextTerm + ", ");
-            start = second;
-            second = nextTerm;
-            nextTerm = start + second;
+            start = second; // Stores the value of second into start vairable
+            second = nextTerm; // Stores the value of next term into the second variable
+            nextTerm = start + second; // Adding the new assigned value to next term
         }
     }
 
@@ -25,6 +28,6 @@ public class recur {
         recur obj1 = new recur();
         // System.out.println(obj1.factorial(5));
         obj1.fibonacci(10);
-
+        
     }
 }
