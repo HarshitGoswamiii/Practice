@@ -66,7 +66,7 @@ public class practice_set {
         // prt.pattern2();
         int n = 10;
         for (int i = 0; i < n; i++) {
-            System.out.println(fibonacci_series(i) + ", ");
+            System.out.print(fibonacci_series(i) + ", ");
 
         }
     }
