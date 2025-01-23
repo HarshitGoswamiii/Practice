@@ -56,6 +56,14 @@ public class practice_set {
         return fibonacci_series(number - 1) + fibonacci_series(number - 2);
     }
 
+    // Question 9
+    static void temp_conversion(double temperature) {
+        System.out.println("Temperature in Celsius : " + temperature + "°"); // Print The Temperature in Celsius
+        // Convert the temperature by multiplication of celcius tempertaure
+        double fahrenhiet = temperature * 33.8;
+        System.out.println("Temperature in Fahrenhiet : " + fahrenhiet + "°"); // Print The Tempertare in Fahrenhiet
+    }
+
     public static void main(String[] args) {
 
         practice_set prt = new practice_set();
@@ -64,10 +72,12 @@ public class practice_set {
         // System.out.println(prt.sum_of_n(5));
         // prt.pyramid_upside();
         // prt.pattern2();
-        int n = 10;
-        for (int i = 0; i < n; i++) {
-            System.out.print(fibonacci_series(i) + ", ");
+        // int n = 10;
+        // for (int i = 0; i < n; i++) {
+        // System.out.print(fibonacci_series(i) + ", ");
 
-        }
+        // }
+
+        prt.temp_conversion(24.2);
     }
 }
