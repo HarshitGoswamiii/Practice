@@ -31,6 +31,6 @@ public class practice_set {
         practice_set prt = new practice_set();
         // prt.table(8);
         // prt.pattern();
-        prt.sum_of_n(5)
+        prt.sum_of_n(5);
     }
 }
