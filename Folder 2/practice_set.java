@@ -56,6 +56,9 @@ public class practice_set {
         return fibonacci_series(number - 1) + fibonacci_series(number - 2);
     }
 
+    // Question 6
+    
+
     // Question 9
     static void temp_conversion(double temperature) {
         System.out.println("Temperature in Celsius : " + temperature + "°"); // Print The Temperature in Celsius
@@ -78,6 +81,6 @@ public class practice_set {
 
         // }
 
-        prt.temp_conversion(24.2);
+        prt.temp_conversion(0.2);
     }
 }
