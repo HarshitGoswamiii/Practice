@@ -36,6 +36,14 @@ public class practice_set {
         }
     }
 
+    static void pattern2() {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j <= i; j++) {
+
+            }
+        }
+    }
+
     public static void main(String[] args) {
 
         practice_set prt = new practice_set();
