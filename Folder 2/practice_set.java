@@ -38,14 +38,23 @@ public class practice_set {
 
     static void pattern2() {
         for (int i = 0; i < 5; i++) {
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j <= i; j++) {
-                System.out.print("*");
+            for (int j = 0; j < i; j++) {
+                System.out.print(" *");
             }
             System.out.println();
         }
+    }
+
+    // Question 5
+    static int fibonacci_series() {
+        int n = 0;
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+        return fibonacci_series(n - 1) + fibonacci_series(n - 2);
     }
 
     public static void main(String[] args) {
