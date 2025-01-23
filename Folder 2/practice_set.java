@@ -60,7 +60,7 @@ public class practice_set {
     static void temp_conversion(double temperature) {
         System.out.println("Temperature in Celsius : " + temperature + "°"); // Print The Temperature in Celsius
         // Convert the temperature by multiplication of celcius tempertaure
-        double fahrenhiet = temperature * 33.8;
+        double fahrenhiet = (temperature * 1.8) + 32;
         System.out.println("Temperature in Fahrenhiet : " + fahrenhiet + "°"); // Print The Tempertare in Fahrenhiet
     }
 
