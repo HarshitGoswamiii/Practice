@@ -39,8 +39,12 @@ public class practice_set {
     static void pattern2() {
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j <= i; j++) {
-
+                System.out.print(" ");
             }
+            for (int j = 0; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
 
@@ -48,8 +52,9 @@ public class practice_set {
 
         practice_set prt = new practice_set();
         // prt.table(8);
-        prt.pattern();
+        // prt.pattern();
         // System.out.println(prt.sum_of_n(5));
-        prt.pyramid_upside();
+        // prt.pyramid_upside();
+
     }
 }
