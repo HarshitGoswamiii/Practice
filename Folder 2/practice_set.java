@@ -67,12 +67,12 @@ public class practice_set {
     }
 
     // Question 8----->
-    static void pattern_rec_2(){
-        int n=4;
-        if(n==1){
-            System.out.println("*");
+    static void pattern_rec_2(int stars) {
+        if (stars == 0) {
+            return;
         }
-        System.out.println();
+        System.out.println("*");
+        pattern_rec_2(stars - 1);
     }
 
     // Question 9
@@ -96,6 +96,8 @@ public class practice_set {
         // System.out.print(fibonacci_series(i) + ", ");
         // }
         // prt.temp_conversion(0.2);
-        prt.average(26, 32, 21, 44, 28, 65);
+        // prt.average(26, 32, 21, 44, 28, 65);
+
+        prt.pattern_rec_2(4);
     }
 }
