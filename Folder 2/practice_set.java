@@ -51,7 +51,7 @@ public class practice_set {
     // Question 5
     static int fibonacci_series(int number) {
         if (number == 0 || number == 1) {
-            return 1;
+            return number;
         }
         return fibonacci_series(number - 1) + fibonacci_series(number - 2);
     }
@@ -63,6 +63,11 @@ public class practice_set {
         // prt.pattern();
         // System.out.println(prt.sum_of_n(5));
         // prt.pyramid_upside();
-        prt.pattern2();
+        // prt.pattern2();
+        int n = 10;
+        for (int i = 0; i < n; i++) {
+            System.out.println(fibonacci_series(i) + ", ");
+
+        }
     }
 }
