@@ -57,7 +57,9 @@ public class practice_set {
     }
 
     // Question 6
-    
+    static void average(int numbers) {
+        
+    }
 
     // Question 9
     static void temp_conversion(double temperature) {
