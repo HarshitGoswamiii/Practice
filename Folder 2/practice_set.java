@@ -62,6 +62,8 @@ public class practice_set {
         for (int i = 0; i <= numbers.length; i++) {
             sum += numbers[i];
         }
+        System.out.println("Total Marks : " + sum);
+        System.out.println("Average : " + (sum / numbers.length - 1));
     }
 
     // Question 9
