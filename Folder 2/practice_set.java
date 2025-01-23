@@ -62,6 +62,7 @@ public class practice_set {
             return 0 ;
         }
         int sum= average(numbers);
+        return sum;
     }
 
     // Question 9
