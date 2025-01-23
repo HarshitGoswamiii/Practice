@@ -57,12 +57,11 @@ public class practice_set {
     }
 
     // Question 6
-    static int average(int numbers) {
-        if(numbers<=0){
-            return 0 ;
+    static void average(int... numbers) {
+        int sum = 0;
+        for (int i = 0; i <= numbers.length; i++) {
+
         }
-        int sum= average(numbers);
-        return sum;
     }
 
     // Question 9
@@ -84,9 +83,8 @@ public class practice_set {
         // int n = 10;
         // for (int i = 0; i < n; i++) {
         // System.out.print(fibonacci_series(i) + ", ");
-
         // }
-
-        prt.temp_conversion(0.2);
+        // prt.temp_conversion(0.2);
+        prt.average(23);
     }
 }
