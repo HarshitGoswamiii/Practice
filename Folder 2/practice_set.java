@@ -57,8 +57,11 @@ public class practice_set {
     }
 
     // Question 6
-    static void average(int numbers) {
-        
+    static int average(int numbers) {
+        if(numbers<=0){
+            return 0 ;
+        }
+        int sum= average(numbers);
     }
 
     // Question 9
