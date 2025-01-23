@@ -49,12 +49,11 @@ public class practice_set {
     }
 
     // Question 5
-    static int fibonacci_series() {
-        int n = 0;
-        if (n == 0 || n == 1) {
+    static int fibonacci_series(int number) {
+        if (number == 0 || number == 1) {
             return 1;
         }
-        return fibonacci_series(n - 1) + fibonacci_series(n - 2);
+        return fibonacci_series(number - 1) + fibonacci_series(number - 2);
     }
 
     public static void main(String[] args) {
