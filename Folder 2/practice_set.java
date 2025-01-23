@@ -66,6 +66,15 @@ public class practice_set {
         System.out.println("Average : " + (sum / numbers.length));
     }
 
+    // Question 8----->
+    static void pattern_rec_2(){
+        int n=4;
+        if(n==1){
+            System.out.println("*");
+        }
+        System.out.println();
+    }
+
     // Question 9
     static void temp_conversion(double temperature) {
         System.out.println("Temperature in Celsius : " + temperature + "°"); // Print The Temperature in Celsius
