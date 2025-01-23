@@ -26,6 +26,16 @@ public class practice_set {
         return sum;
     }
 
+    // Question 4
+    static void pyramid_upside() {
+        for (int i = 0; i <= 5; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
 
         practice_set prt = new practice_set();
