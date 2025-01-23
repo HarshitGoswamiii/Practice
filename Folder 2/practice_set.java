@@ -87,6 +87,6 @@ public class practice_set {
         // System.out.print(fibonacci_series(i) + ", ");
         // }
         // prt.temp_conversion(0.2);
-        prt.average(23);
+        prt.average(2, 3, 2, 4, 2);
     }
 }
