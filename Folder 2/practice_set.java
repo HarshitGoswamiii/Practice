@@ -55,6 +55,6 @@ public class practice_set {
         // prt.pattern();
         // System.out.println(prt.sum_of_n(5));
         // prt.pyramid_upside();
-
+        prt.pattern2();
     }
 }
