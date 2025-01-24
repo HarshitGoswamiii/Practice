@@ -69,7 +69,7 @@ public class practice_set {
     // Question 8----->
     static void pattern_rec_2(int stars) {
         if (stars == 0) {
-            return;
+            return ;
         }
         System.out.println("*");
         pattern_rec_2(stars - 1);
