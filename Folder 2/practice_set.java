@@ -98,6 +98,6 @@ public class practice_set {
         // prt.temp_conversion(0.2);
         // prt.average(26, 32, 21, 44, 28, 65);
 
-        prt.pattern_rec_2(4);
+        prt.pattern_rec_2(4); 
     }
 }
