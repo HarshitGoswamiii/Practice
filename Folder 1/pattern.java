@@ -100,5 +100,6 @@ public class pattern {
         // ptr.pyramid_while();
         // ptr.sum_of_table_8();
         // ptr.sum_using_forloop();
+        
     }
 }
