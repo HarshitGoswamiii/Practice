@@ -4,7 +4,7 @@ public class question {
         if (number == 0 || number == 1) {
             System.out.println(" 1 ");
         }
-        while (number <= 1) {
+        while (number >= 1) {
             multiple *= number;
             number--;
         }
