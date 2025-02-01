@@ -1,5 +1,5 @@
 public class question {
-    static void factorial(int number) {
+    public void factorial(int number) {
         int multiple = 1;
         if (number == 0 || number == 1) {
             System.out.println(" 1 ");
@@ -13,7 +13,7 @@ public class question {
 
     public static void main(String[] args) {
 
-        Object newObj = new Object();
+        question newObj = new question();
         newObj.factorial(5);
     }
 }
