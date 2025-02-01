@@ -6,9 +6,9 @@ public class prime {
         Scanner number = new Scanner(System.in);
         int num = number.nextInt();
         if (isPrime(num)) {
-            System.out.println(number + " is Prime!");
+            System.out.println(num + " is Prime!");
         } else {
-            System.out.println(number + " is not Prime !");
+            System.out.println(num + " is not Prime !");
         }
 
     }
