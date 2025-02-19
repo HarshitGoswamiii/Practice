@@ -26,7 +26,7 @@ class examples {
 public class questions {
     public static void main(String[] args) {
         examples hello = new examples();
-        hello.palindrome_str("Radar");
+        hello.palindrome_str("ada");
         // hello.counting_digits(1220);
     }
 }
