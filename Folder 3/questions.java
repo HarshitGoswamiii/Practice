@@ -23,10 +23,11 @@ class examples {
     }
 
     public void palindrome_num(int number) {
-        int Reverse_num = 0;
+        int Reverse_num = 0, reminder;
+        int originak = number;
         while (number != 0) {
-            number /= 10;
-            Reverse_num = number;
+            reminder = number % 10;
+            Reverse_num = Reverse_num * 10 + number;
         }
         System.out.println(Reverse_num);
     }
@@ -35,7 +36,8 @@ class examples {
 public class questions {
     public static void main(String[] args) {
         examples hello = new examples();
-        hello.palindrome_str("ada");
+        // hello.palindrome_str("ada");
         // hello.counting_digits(1220);
+        hello.palindrome_num(1223);
     }
 }
