@@ -1,7 +1,12 @@
 class examples {
     public void counting_digits(int number) {
-        String num = number;
-        System.out.println();
+        int count = 0;
+        while (number != 0) {
+            number /= 10;
+            ++count;
+        }
+        System.out.println("Total Digits : " + count);
+
     }
 
     public void palindrome_str(String name) {
