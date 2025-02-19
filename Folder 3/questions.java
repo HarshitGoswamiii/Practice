@@ -1,4 +1,9 @@
 class examples {
+    public void counting_digits(int number) {
+        String num = number;
+        System.out.println();
+    }
+
     public void palindrome_str(String name) {
         String Reverse_Str = "";
         int str_length = name.length();
@@ -16,6 +21,7 @@ class examples {
 public class questions {
     public static void main(String[] args) {
         examples hello = new examples();
-        hello.palindrome_str("Radar");
+        // hello.palindrome_str("Radar");
+        hello.counting_digits(122321);
     }
 }
