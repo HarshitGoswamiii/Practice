@@ -15,7 +15,7 @@ class examples {
         for (int i = (str_length - 1); i >= 0; --i) {
             Reverse_Str = Reverse_Str + name.charAt(i);
         }
-        if (name.toLowerCase() == Reverse_Str.toLowerCase()) {
+        if (name.toLowerCase().equals(Reverse_Str.toLowerCase())) {
             System.out.println("Palindrome String");
         } else {
             System.out.println("Not A Palindrome String");
@@ -26,7 +26,7 @@ class examples {
 public class questions {
     public static void main(String[] args) {
         examples hello = new examples();
-        // hello.palindrome_str("Radar");
-        hello.counting_digits(1220);
+        hello.palindrome_str("Radar");
+        // hello.counting_digits(1220);
     }
 }
