@@ -21,6 +21,15 @@ class examples {
             System.out.println("Not A Palindrome String");
         }
     }
+
+    public void palindrome_num(int number) {
+        int Reverse_num = 0;
+        while (number != 0) {
+            number /= 10;
+            Reverse_num = number;
+        }
+        System.out.println(Reverse_num);
+    }
 }
 
 public class questions {
